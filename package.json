@@ -1,0 +1,29 @@
+{
+  "name": "express-middleware",
+  "version": "1.0.0",
+  "description": "All the middlewares @kylemoran138 might need some day",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion" : "git push && git push --tags",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleMoran138/express-middleware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyleMoran138/express-middleware/issues"
+  },
+  "homepage": "https://github.com/KyleMoran138/express-middleware#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
