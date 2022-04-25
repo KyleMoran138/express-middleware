@@ -1,5 +1,5 @@
 {
-  "name": "express-middleware",
+  "name": "@kylemoran138/express-middleware",
   "version": "1.0.0",
   "description": "All the middlewares @kylemoran138 might need some day",
   "main": "index.js",
