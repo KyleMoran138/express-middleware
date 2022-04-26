@@ -16,6 +16,6 @@ const handler: (options?: Options) => RequestHandler = (options) => async (req, 
 };
 
 export {
-  handler as requestIdMiddleware,
-  Options as requestIdMiddlewareOptions,
+  handler as requestUidMiddleware,
+  Options as requestUidMiddlewareOptions,
 };
